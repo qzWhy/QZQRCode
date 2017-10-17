@@ -13,6 +13,11 @@
 		26C9B21F1F95FFFF00293F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B21D1F95FFFF00293F9E /* Main.storyboard */; };
 		26C9B2211F95FFFF00293F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B2201F95FFFF00293F9E /* Assets.xcassets */; };
 		26C9B2241F95FFFF00293F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B2221F95FFFF00293F9E /* LaunchScreen.storyboard */; };
+		26C9B22E1F96010F00293F9E /* QZPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9B22C1F96010F00293F9E /* QZPreViewController.m */; };
+		26C9B22F1F96010F00293F9E /* QZPreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B22D1F96010F00293F9E /* QZPreViewController.xib */; };
+		26C9B2331F96011A00293F9E /* QR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B2301F96011A00293F9E /* QR@2x.png */; };
+		26C9B2341F96011A00293F9E /* QZPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9B2321F96011A00293F9E /* QZPreView.m */; };
+		26C9B2361F96012800293F9E /* scanline.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C9B2351F96012800293F9E /* scanline.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,13 @@
 		26C9B2201F95FFFF00293F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C9B2231F95FFFF00293F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C9B2251F95FFFF00293F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C9B22B1F96010F00293F9E /* QZPreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZPreViewController.h; sourceTree = "<group>"; };
+		26C9B22C1F96010F00293F9E /* QZPreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZPreViewController.m; sourceTree = "<group>"; };
+		26C9B22D1F96010F00293F9E /* QZPreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZPreViewController.xib; sourceTree = "<group>"; };
+		26C9B2301F96011A00293F9E /* QR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR@2x.png"; sourceTree = "<group>"; };
+		26C9B2311F96011A00293F9E /* QZPreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZPreView.h; sourceTree = "<group>"; };
+		26C9B2321F96011A00293F9E /* QZPreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZPreView.m; sourceTree = "<group>"; };
+		26C9B2351F96012800293F9E /* scanline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanline.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,17 @@
 		26C9B2131F95FFFF00293F9E /* QZQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				26C9B2301F96011A00293F9E /* QR@2x.png */,
+				26C9B2311F96011A00293F9E /* QZPreView.h */,
+				26C9B2321F96011A00293F9E /* QZPreView.m */,
 				26C9B2171F95FFFF00293F9E /* AppDelegate.h */,
 				26C9B2181F95FFFF00293F9E /* AppDelegate.m */,
 				26C9B21A1F95FFFF00293F9E /* ViewController.h */,
 				26C9B21B1F95FFFF00293F9E /* ViewController.m */,
+				26C9B2351F96012800293F9E /* scanline.png */,
+				26C9B22B1F96010F00293F9E /* QZPreViewController.h */,
+				26C9B22C1F96010F00293F9E /* QZPreViewController.m */,
+				26C9B22D1F96010F00293F9E /* QZPreViewController.xib */,
 				26C9B21D1F95FFFF00293F9E /* Main.storyboard */,
 				26C9B2201F95FFFF00293F9E /* Assets.xcassets */,
 				26C9B2221F95FFFF00293F9E /* LaunchScreen.storyboard */,
@@ -139,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C9B2241F95FFFF00293F9E /* LaunchScreen.storyboard in Resources */,
+				26C9B22F1F96010F00293F9E /* QZPreViewController.xib in Resources */,
 				26C9B2211F95FFFF00293F9E /* Assets.xcassets in Resources */,
+				26C9B2331F96011A00293F9E /* QR@2x.png in Resources */,
+				26C9B2361F96012800293F9E /* scanline.png in Resources */,
 				26C9B21F1F95FFFF00293F9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C9B21C1F95FFFF00293F9E /* ViewController.m in Sources */,
+				26C9B22E1F96010F00293F9E /* QZPreViewController.m in Sources */,
 				26C9B2191F95FFFF00293F9E /* AppDelegate.m in Sources */,
+				26C9B2341F96011A00293F9E /* QZPreView.m in Sources */,
 				26C9B2161F95FFFF00293F9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
